@@ -1,0 +1,22 @@
+.contain{
+    border:rgb(144, 166, 221) solid 0.02em;
+   /* height: 50px;*/
+    width: 95%;
+    /*n5ly ely 3la el left nafs ely 3ala el right*/
+    margin: auto;
+    /* yb3d 3n el top shway*/
+    margin-top: 0.2em;
+}
+label{
+    color:#007bff;
+    font-weight: bold;
+}
+.button-view{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+/* 
+.button-view>button{
+    height: 30px;
+} */

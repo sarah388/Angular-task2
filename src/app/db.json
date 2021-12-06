@@ -1,0 +1,117 @@
+{
+    "Employees": [
+      {
+        "EmployeeCode": 12345,
+        "EmployeeName": "Dina Badr",
+        "BirthDate": "24/3/1997",
+        "BirthCity": "Cairo",
+        "EmployeeId": 256789,
+        "Department":"UI/UX Department",
+        "JobTitle": "UI/UX Department",
+        "DirectManager": "Hanan",
+        "ContractType":"Full Time",
+        "DepartmentId": 1,
+        "CityId":1
+      },
+      {
+        "EmployeeCode": 6952,
+        "EmployeeName": "Hanin Elhosary",
+        "BirthDate": "12/12/1997",
+        "BirthCity": "Cairo",
+        "EmployeeId": 5246987,
+        "Department":"UI/UX Department",
+        "JobTitle": "UI/UX Department",
+        "DirectManager": "Hanan",
+        "ContractType":"Full Time",
+        "DepartmentId": 1,
+        "CityId":1
+
+
+      },
+      {
+        "EmployeeCode": 555525,
+        "EmployeeName": "Hager",
+        "BirthDate": "25/11/1997",
+        "BirthCity": "Giza",
+        "EmployeeId": 5246987,
+        "Department":"UI/UX Department",
+        "JobTitle": "UI/UX Department",
+        "DirectManager": "Hanan",
+        "ContractType":"Full Time",
+        "DepartmentId": 1,
+        "CityId":2
+
+
+      },
+      {
+        "EmployeeCode": 12589,
+        "EmployeeName": "Mohamed",
+        "BirthDate": "22/6/1997",
+        "BirthCity": "Giza",
+        "EmployeeId": 5876921,
+        "Department": "Backend Department",
+        "JobTitle": "Backend Department",
+        "DirectManager": "Mohamed",
+        "ContractType":"Full Time",
+        "DepartmentId": 2,
+        "CityId":2
+
+
+      },
+      {
+        "EmployeeCode": 12589,
+        "EmployeeName": "Sarah Ragab",
+        "BirthDate": "22/6/1997",
+        "BirthCity": "Giza",
+        "EmployeeId": 5876921,
+        "Department":"Backend Department",
+        "JobTitle": "Backend Department",
+        "DirectManager": "Mohamed",
+        "ContractType":"Full Time",
+        "DepartmentId": 2,
+        "CityId":2
+
+
+      },
+      {
+        "EmployeeCode": 12345,
+        "EmployeeName": "Soha Hassan",
+        "BirthDate": "12/11/1997",
+        "BirthCity": "Cairo",
+        "EmployeeId": 18235,
+        "Department":"Backend Department",
+        "JobTitle": "Backend Department",
+        "DirectManager": "Mohamed",
+        "ContractType":"Full Time",
+        "DepartmentId": 2,
+        "CityId":1
+
+
+      }
+    ],
+    "Department":[
+      {
+        "id": 1,
+        "name": "UI/UX Department"
+       
+      },
+      {
+        "id": 2,
+        "name": "Backend Department"
+        
+      }
+
+    ],
+    "BirthCity":[
+      {
+        "id": 1,
+        "name": "Cairo"
+       
+      },
+      {
+        "id": 2,
+        "name": "Giza"
+        
+      }
+    ]
+  }

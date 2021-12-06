@@ -1,0 +1,18 @@
+.navbar{
+    background-image: linear-gradient(180deg, white, rgb(144, 166, 221));
+}
+.navbar-brand{
+    color: #007bff;
+    font-weight: bold;
+}
+.vl {
+    border-left: 2px solid rgb(206, 200, 206);
+/*hya gwa form inline so hya bta5od height 3la 7asb tolo hya bta5od nafs el tool*/
+    height: 5em;
+  }
+.blue{
+    color:#4F92D0;
+}
+.gray{
+    color: rgb(141, 143, 150);
+}

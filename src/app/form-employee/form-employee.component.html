@@ -1,0 +1,77 @@
+<div class="contain collapse p-2" id="collapseExample">
+    <form>
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <label for="inputCode">Employee Code</label>
+                <input type="text" class="form-control" id="inputCode">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputName">Employee Name</label>
+                <input type="text" class="form-control" id="inputName">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputDate">Birth Date</label>
+                <input class="form-control datepicker" type="date" data-date-format="Dd/Mm/Yyyy" id="inputCode">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputCity">Birth City</label>
+                <select id="inputCity" class="form-control" >
+                <option selected>Select</option>
+                 </select>
+            </div>
+        </div>
+        <!-- tany saf-->
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <label for="inputCode">Employee ID</label>
+                <input type="text" class="form-control" id="inputID">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputDate">Department</label>
+                <select id="inputDate" class="form-control" [(ngModel)]="select" name="Department">
+           <!-- [ngModelOptions]="{standalone: true}"-->
+             <!-- <option selected>Select</option>  -->
+            <option *ngFor="let data of DepartmentList " [value]="data.id">{{data.name}}</option>
+          </select>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputTitle">Job Title</label>
+                <input type="text" class="form-control" id="inputTitle">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputManager">Direct Manager</label>
+                <input type="text" class="form-control" id="inputManager">
+            </div>
+        </div>
+        <!-- a5er saf-->
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <label for="inputContract">Contract Type</label>
+                <select id="inputContract" class="form-control">
+          <option selected>Select</option>
+          <option></option>
+        </select>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputStatus">Status</label>
+                <select id="inputStatus" class="form-control">
+          <option selected>Select</option>
+          <option></option>
+        </select>
+            </div>
+            <div class=" button-view form-group col-md-6 ">
+                <button type="button" class=" btn-primary  " (click)="view()">View</button>
+            </div>
+
+        </div>
+
+    </form>
+
+</div>
+<div style="text-align: center;" data-toggle="collapse" data-target="#collapseExample" aria-expanded="False" aria-controls="collapseExample">
+   <!--a7ot el icons-->
+    <i class="fa fa-chevron-up p-2" aria-hidden="true" style="background-color:lightgray;"></i>
+
+</div>
+<!-- <app-table-employee  [inputDepartmentID]="select"></app-table-employee> -->
+<app-table-employee [inputDepartmentID]="sendid" ></app-table-employee>
